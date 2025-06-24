@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    height: 0px;
+}
+
+
+@font-face {
+    font-family: "corpo";
+    src: url("./FONT/philly_sans/PhillySans.otf");
+}
+
+@font-face {
+    font-family: "titulo";
+    src: url("./FONT/mostwasted/Mostwasted.ttf");
+}
+
+@font-face {
+    font-family: "sub";
+    src: url("./FONT/times_new_normal/");
+}
+
+@font-face {
+    font-family: "mu";
+    src: url("./FONT/mont/Mont-HeavyDEMO.otf");
+}
+
+@font-face {
+    font-family: "icon";
+    src: url("./FONT/social_media_circled/Social\ Media\ Circled.ttf");
+}
+#homebar {
+    color: blue;
+    margin-top: 20px;
+    z-index: 0;
+    border: 2px solid transparent;
+    height: 70px;
+    width: 1675px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#caixa1 {
+    position: absolute;
+    background: black;
+    height: 50px;
+    width: 1521px;
+    margin-left: -170px;
+    border: 2px solid transparent;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    border: 2px solid transparent;
+    position: absolute;
+}
+
+#caixa2 {
+    background: black;
+    height: 60px;
+    width: 1521px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left:-170px;
+    border: 2px solid transparent; 
+    opacity: 70%;
+}
+
+
+.e1{
+    font-size: 40px;
+    font-family: "corpo";
+    color: white;
+    margin-top: 50px;
+    list-style-type: none;
+    width: 400px;
+}
+
+.e1:hover{
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: "corpo";
+    color: white;
+    margin-top: 50px;
+    list-style-type: none;
+    width: 400px;
+}
+
+#m2{
+     position: absolute;
+     font-size: 90px;
+    font-family: "titulo";
+    color: black;
+    margin-top: 135px;
+    margin-left: -110px;
+    width: 900px;
+    border: 2px solid transparent;
+}
+
+#cxArtista{
+    position: absolute;
+    height: 600px;
+    width: 1200px;
+    display: flex;
+    margin-top: 250px;
+    margin-left: -300px;
+    border: 2px solid transparent;
+}
+
+#img1{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+}
+
+#m4{
+    position: absolute;
+     font-size: 30px;
+    font-family: "sub";
+    color: black;
+    margin-left: 500px;
+    margin-top: 30px;
+    width: 620px;
+    border: 2px solid transparent; 
+}
